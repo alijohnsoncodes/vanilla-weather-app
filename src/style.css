@@ -71,6 +71,7 @@ top: -34px;
     color: rgb(35, 35, 35);
     cursor: default;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .weather-temperature .active:hover {
