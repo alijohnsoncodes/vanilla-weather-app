@@ -34,13 +34,14 @@ function displayTemperature(response) {
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = Math.round(response.data.temperature.humidity);
     windElement.innerHTML = Math.round(response.data.wind.speed);
-   dateElement.innerHTML = formatDate(response.data.time*1000);
+   dateElement.innerHTML = formatDate(response.data.time * 1000);
 }
 
 
 let apiKey = "ff67f897a48b47at483eo6903fc267cb";
+let city = "Madrid";
 let apiUrl =`https://api.shecodes.io/weather/v1/current?
-query=New York&key=${apiKey}&units=metric`;
+query=${city}&key=${apiKey}&units=metric`;
 
 //console.log(apiUrl);
 
