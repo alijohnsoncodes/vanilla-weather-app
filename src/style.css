@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzY5MmIxYmE3ZGUyN2E0NDVlNDRhZmY5MjY1MjJhZTc5M2M5NTFjNSZjdD1n/QRhtqYeEywJI4/giphy.gif");
+    background-size: cover;
 }
-
-h1 {
-    color: #878787;
+h1{
+    color: white;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -17,7 +18,7 @@ ul {
 
 li {
     list-style: none;
-    color:#878787;
+    color:white;
     padding: 0;
     margin: 0;
     font-size: 16px;
@@ -37,10 +38,10 @@ li:first-letter {
 }
 .weather-app {
     max-width: 600px;
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 20px;
     border: 1px solid #dadde1;
-    border-radius: 4px;
+    border-radius: 14px;
 }
 
 .overview {
@@ -55,7 +56,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-    color: rgb(35, 35, 35);
+    color: white;
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
@@ -68,7 +69,7 @@ top: -34px;
 }
 
 .weather-temperature .active {
-    color: rgb(35, 35, 35);
+    color: white;
     cursor: default;
     text-decoration: none;
     margin-left: 5px;
@@ -82,17 +83,17 @@ top: -34px;
 .weather-app .non-active {
     text-decoration: none;
     cursor: default;
-    color: rgb(35, 35, 35);
+    color: white;
 }
 
 .weather-forecast {
     margin-top: 20px;
     text-align: center;
-    color: #878787;
+    color: white;
 }
 
 .weather-forecast-date {
-    color: black;
+    color: white;
     font-size: 16px;
 }
 
@@ -102,4 +103,43 @@ top: -34px;
 
 .weather-forecast-temperatures-min {
     opacity: 1.0;
+}
+
+.btn:hover{
+    background-color: green;
+    border-color: green;
+    cursor: default;
+}
+
+.weather-forecast-temperature-min{
+    color: white;
+    margin-left: 3px;
+
+}
+
+.form-control:hover {
+    background-color: lemonchiffon;
+    font-style: italic;
+}
+
+.open-link {
+    color: white;
+    cursor: default;
+}
+
+.open-source {
+    color: white;
+    cursor: default;
+}
+
+.open-source:hover {
+    cursor: default;
+    color: white;
+    text-transform:uppercase;
+} 
+
+.open-link:hover {
+    cursor: default;
+    color: white;
+    text-transform:uppercase;
 }

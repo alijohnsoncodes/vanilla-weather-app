@@ -17,6 +17,9 @@
   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
   crossorigin="anonymous">
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="src/style.css" />
 
@@ -46,7 +49,7 @@
   <h1 id="city">
   </h1>
   <ul>
-    <li>Last updated: <span id="date"></span></li>
+    <li>Last Updated: <span id="date"></span></li>
     <li id="description">
 
     </li>
@@ -62,7 +65,7 @@ class="float-left"
 />
 <div class="float-left">
   <strong id="temperature"></strong><span class="units"
-  ><a href="#" id="celsius-link" class="active">°C</a> |<a href="#" id="fahrenheit-link" class="non-active">°F</a></span
+  ><a href="#" id="celsius-link" class="active">°C | </a><a href="#" id="fahrenheit-link" class="non-active">°F</a></span
   >
 </div>
 </div>
@@ -81,9 +84,10 @@ Humidity: <span id="humidity"></span>%
 <div class="weather-forecast" id="forecast">
 </div>
 </div>
-<small>
+<small class="open-source">
   <a href="https://github.com/alijohnsoncodes/vanilla-weather-app" 
-  target="_blank">
+  target="_blank"
+  class="open-link">
   Open Source Code</a>
    by Ali Johnson
   </small>
