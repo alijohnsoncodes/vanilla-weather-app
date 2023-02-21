@@ -38,7 +38,7 @@ li:first-letter {
 }
 .weather-app {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 14px;
@@ -130,6 +130,7 @@ top: -34px;
 .open-source {
     color: white;
     cursor: default;
+    margin-top: 5px;
 }
 
 .open-source:hover {
