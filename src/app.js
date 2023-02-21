@@ -45,7 +45,7 @@ function displayForecast(response) {
      <div class="weather-forecast-date">
        ${formatDay(forecastDay.time)}
      </div>
-     <img src="https://ssl.gstatic.com/onebox/weather/64/${forecastDay.condition.icon}.png" 
+     <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${forecastDay.condition.icon}.png" 
      alt="" 
      width="42"
      />
