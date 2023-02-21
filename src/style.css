@@ -111,8 +111,9 @@ top: -34px;
     cursor: default;
 }
 
-.weather-forecast-temperature-min{
+.weather-forecast-temperature-min {
     color: white;
+    opacity: 3;
     margin-left: 3px;
 
 }
